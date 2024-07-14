@@ -8,4 +8,4 @@ class GameSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Game
-        fields = ['id', 'room', 'player1', 'player2', 'decrypted_choices', 'encrypted_choices', 'key', 'timeout', 'winner']
+        fields = ['id', 'room', 'player1', 'player2', 'decrypted_choices', 'encrypted_choices', 'key', 'timeout', 'winner', 'bet']
